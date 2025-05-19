@@ -1,0 +1,62 @@
+site_name: Intro_to_scRNAseq_external
+pages:
+    - Home: index.md
+    - Class schedule: schedule.md
+    - Lessons:
+        - Workshop Introduction: workshop_intro_slides.pdf
+        - Introduction to R and RStudio: 01_introR-R-and-RStudio.md
+        - R Syntax and Data Structure: 02_introR-syntax-and-data-structures.md
+        - Functions and Arguments: 03_introR-functions-and-arguments.md
+        - Reading in and Inspecting data: 06_reading_and_data_inspection.md
+        - Function exercise: Day2_activities.md
+        - Data Wrangling- Subsetting Vectors and Factors: 05_introR-data-wrangling.md
+        - Packages and Libraries: 04_introR_packages.md
+        - Data wrangling- data frames, matrices and lists: 07_introR-data-wrangling2.md
+        - The %in% operator: 08_identifying-matching-elements.md
+        - Reordering and matching: 09_reordering-to-match-datasets.md
+        - Setting up a data frame to plot (+ the map() function): 10_setting_up_to_plot.md
+        - Data wrangling exercises: Day3_activities.md
+        - Introduction to ggplot2: 11_ggplot2.md
+        - Using custom functions for consistent plots: 11b_Custom_Functions_ggplot2.md
+        - Generating a boxplot with ggplot2: 12_boxplot_exercise.md
+        - Writing to file and exporting plots: 04_introR_packages.md
+        - Finding help: 07_introR-data-wrangling2.md
+        - Tidyverse: 08_identifying-matching-elements.md
+        - Tidyverse Exercise: Day4_activities.md
+        - Introduction to Single Cell RNA-sequencing- a practical guide: 072624_Chan_scRNAseq_workshop_Arpita_Kulkarni.pdf
+        - scRNA-seq Background: 01_intro_to_scRNA-seq.md
+        - Raw data to count matrix: 02_SC_generation_of_count_matrix.md
+        - Quality Control Set-up: 03_SC_quality_control-setup.md
+        - Quality control of cellranger counts: 04_cellranger_QC.md
+        - Quality control with additional metrics: 04_SC_quality_control.md
+        - Theory of PCA: 05_theory_of_PCA.md
+        - Normalization and regressing out unwanted variation: 06_SC_SCT_normalization.md
+        - A brief introduction to Integration: 06a_integration_cca_theory.md
+        - Running CCA integration and complex integration tasks: 06b_integration_code_harmony.md
+        - Clustering: 02_SC_generation_of_count_matrix.md
+        - Clustering quality control Part 1: 08_SC_clustering_quality_control.md
+        - Clustering quality control Part 2: 08_SC_clustering_quality_control.md
+        - Seurat Cheatsheet: seurat_cheatsheet.md
+        - Marker Identification: 09_merged_SC_marker_identification.md
+        - Pseudobulk set-up: 01_setup_intro_dataset.md
+        - Differential expression analysis using FindMarkers(): 02_DEanalysis_using_FindMarkers.md
+        - Aggregating counts by celltype using pseudobulk approach: 03_pseudobulk_DESeq2.md
+        - DE analysis of pseudobulk data using DESeq2: 04_pseudobulk_DE_analysis.md
+        - Visualization of differentially expressed genes: 05_pseudobulk_DE_visualizations.md
+        - Comparison of results from different DE approaches: 06_DE_comparisons.md
+        - Functional Analysis: 07_functional_analysis_pseudobulk.md
+        - Differential abundance of cells: /08_differential_abundance.md
+        - Wrap-up:
+
+  theme:
+      names: 'material'
+      custom_dir: custon_theme
+      palette:
+        primary: 'White'
+        accent: 'Light Green'
+      logo: 'images/hbc_logo.png'
+  extra_css: [extra.css]
+        
+      
+        
+        
