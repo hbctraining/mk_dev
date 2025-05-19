@@ -1,4 +1,4 @@
-site_name: Intro_to_scRNAseq_external
+site_name: mk_dev
 pages:
     - Home: index.md
     - Class schedule: schedule.md
