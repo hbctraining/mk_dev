@@ -54,7 +54,7 @@ pages:
       palette:
         primary: 'White'
         accent: 'Light Green'
-      logo: 'images/hbc_logo.png'
+      logo: 'images/HBC_logo_2.png'
   extra_css: [extra.css]
         
       
